@@ -12,21 +12,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.6/purify.min.js"></script>
     
     <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        rednote: '#FF2741',     /* 核心品牌色 */
-                        rednoteDark: '#E0223A', /* 悬停与阴影色 */
-                    },
-                    fontFamily: {
-                        /* 确保在各端设备上中文字体优雅呈现 */
-                        sans:,
-                    }
+    tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    rednote: '#FF2741',     /* 核心品牌色 */
+                    rednoteDark: '#E0223A', /* 悬停与阴影色 */
+                },
+                fontFamily: {
+                    /* 修复了这里的语法错误 */
+                    sans:,
                 }
             }
         }
-    </script>
+    }
+</script>
     
     <style>
         /* 针对 Markdown 内部元素的全局干预 */
